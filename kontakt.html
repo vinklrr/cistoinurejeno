@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="subpage-header">
+        <div class="logo">
+            <img src="2.png" alt="Čisto in Urejeno Logo">
+        </div>
+        <h1>Kontakt</h1>
+    </header>
+
+    <section class="content">
+        <h2>Kontaktirajte nas</h2>
+        <p>Za več informacij nas lahko kontaktirate preko naslednjih kanalov:</p>
+
+        <div class="contact-details">
+            <p><strong>📞 Telefon:</strong> 070 746 173</p>
+            <p><strong>📧 Email:</strong> info@cistoinurejeno.si</p>
+            <p><strong>📍 Naslov:</strong> Brezina 40b,  8250 Brežice </p>
+        </div>
+<br>
+        <h3>Kontaktni obrazec</h3>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Ime:</label>
+            <input type="text" id="name" name="name" required><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="message">Sporočilo:</label>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+        
+            <button type="submit">Pošlji</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Čisto in Urejeno | Vse pravice pridržane</p>
+    </footer>
+</body>
+</html>
